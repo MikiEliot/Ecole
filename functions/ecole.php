@@ -5,7 +5,7 @@
     $enseignant1 = new Enseignant('Dupont', 'Nikola', 'Arradon', 'mathématiques');
     $eleve1 = new Eleve('Alokin', 'Divad', ' Vannes', '3éme');
     $eleve2 = new Eleve('Cilleuom Le', 'Leunamme', 'Lorient', 'CM2');
-    $enseignant2 = new Enseignant('Михајловић', 'Миодраг', 'Carnac', 'physique');
+    $enseignant2 = new Enseignant('Le Piver', 'Blandine', 'Carnac', 'physique');
 
     // Affichage de l'état civil de chaque personne créée
     echo $enseignant1->getEtatCivil() . '<br>';
